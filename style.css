@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #ddd;
+}
+.cella{
+    width: 10vh;
+    height: 10vh;
+    float: left;
+    border: 1px solid black;
+    background-size: cover;
+}
+.sor::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.fekete{
+    background-color: black;
+  }
+
+.feher{
+    background-color: white;
+  }
+
+#palya{
+    margin: 50px auto;
+    width: 80vh;
+}
+.gyalog{
+    background-image: url("sakk/sakk1.png");
+}
